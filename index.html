@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="description" content="Brian's Weather Application">
+    <title>Weather</title>
+
+</head>
+<body>
+    <div class="title_div">
+        <h1 id="title">Brian's Weather Application</h1>
+
+        <!-- Form for location -->
+        <form>
+            <input id="location_name" type="text" placeholder="Search City">
+            <button id="myButton" type="button">Search</button>
+        </form>
+        <div id="errInput">
+            <!-- Create a div to display text to when input is invalid -->
+        </div>
+    </div>
+
+
+
+    </br>
+
+    <div id="page_div">
+        <div id="myData" style="display:none">
+            <!-- Output Weather Information -->
+            <div class="weather-location"></div>
+            <div class="weather-temp"></div>
+            <div class="weather-icon"></div>
+            <div class="weather-description"></div>
+        </div>
+    </div>
+
+    <script src="weather.js"></script>
+    <link rel="stylesheet" href="weather_styles.css" />
+</body>
+</html>
